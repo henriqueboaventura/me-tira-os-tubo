@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Me tira os tubo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="container is-fluid">
+    <div class="columns is-centered is-mobile">
+      <div class="column">
+        <h1 class="title">Me tira os tubo</h1>
+        <h2 class="subtitle">Calculadora de volume de tubos</h2>
+        3,14159286359 x (d/20)^2 x l = mL
+
+        l=15    cm
+d= 12  número
+V = 16,9646  mL
+        <form action="#" id="form">
+          <fieldset>
+            <div class="field">
+              <label class="label">Diametro do tubo (mm)</label>
+              <div class="control">
+                <input class="input" name="diameter" id="diameter" type="number" required placeholder="1" step="0.1">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Comprimento do tubo (cm)</label>
+              <div class="control">
+                <input class="input" name="length" id="length" type="number" required placeholder="2" step="0.1">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Precisão (casas decimais)</label>
+              <div class="control">
+                <input class="input" name="precision" id="precision" type="number" required value="4">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Volume (ml)</label>
+              <div class="control">
+                <input class="input" readonly name="volume" id="volume" type="text" placeholder="Resultado">
+              </div>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <input class="button is-link" id="calculate" value="Calcular" type="submit" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Henrique Boaventura (hboaventura at gmail dot com)
+
+# THANKS
+
+    Guilherme Back
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
